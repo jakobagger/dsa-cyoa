@@ -3,10 +3,18 @@
 }
 
 body {
-    background-color: darkgray;
+    background-color: rgb(1, 63, 60);
     color: white;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .scene {
-    border: solid black;
+    border: solid 2px lightgray;
+    margin-bottom: 0.5em;
+    border-radius: 1em;
 }
